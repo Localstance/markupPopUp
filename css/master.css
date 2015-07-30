@@ -11,8 +11,76 @@
 	font-weight: normal;
 }
 
+#wrapper {
+	font-size: 14px;
+	max-width: 26em;
+	height: 13.78571428571429em;
+	border: 1px solid black;
+	margin: auto;
+
+}
+
+#header {
+	max-width: 100%;
+	height: 3.285714285714286em;
+	border-bottom: 1px solid black;
+	font-family: HelveticaNeueBold;
+
+}
+h1 {
+	font-size: 1em;
+	line-height: 1.642857142857143em;
+	text-align: center;
+
+}
+#main {
+	max-width: 100%;
+    position: relative;
+	font-family: HelveticaNeueRegular;
+	border: 0px dotted black;
+
+}
+#main p {
+	font-size: 1em;
+	text-align: center;
+	padding: 0 22px;
+}
+#main button {
+	vertical-align: middle;
+	font-family: HelveticaNeueBold;
+	font-size: 1em;
+	color: white;
+	border-radius: 2px;
+}
+.buttonYes {
+	background: linear-gradient(to top, #6aad2d, #a8d34e);
+	border: 1px solid #50771d;
+	padding: 4px;
+}
+
+.tickYes {
+	float: left;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #72b231;
+	border-radius: 12px;
+	background-color: #78bb33;
+
+}
+.buttonYes span {
+	display: block;
+	float: right;
+	line-height: 26px;
+	padding-left: 10px;
+}
+.buttonNo {
+	background: linear-gradient(to top, #e3414d, #f77087);
+	border: 1px solid #b0333e;
+}
 .group:after {
-	content: "";
+	content: ".";
+	display: block;
+	height: 0;
 	clear: both;
-	
+	visibility: hidden;
 }
