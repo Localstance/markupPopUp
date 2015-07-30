@@ -1,3 +1,16 @@
+@font-face {
+	font-family: "HelveticaNeueBold";
+	src: url(../fonts/helvetica-neue-bold.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaNeueRegular";
+	src: url(../fonts/HelveticaNeueCyr-UltraLight.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
 .group:after {
 	content: "";
 	clear: both;
